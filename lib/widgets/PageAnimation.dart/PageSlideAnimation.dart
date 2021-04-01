@@ -3,8 +3,9 @@ import 'package:flutter/material.dart';
 class PageSlideAnimation extends PageRouteBuilder {
   final Widget widget;
 
-  PageSlideAnimation({this.widget,})
-      : super(
+  PageSlideAnimation({
+    this.widget,
+  }) : super(
           pageBuilder: (BuildContext context, Animation<double> animation,
               Animation<double> secondaryAnimation) {
             return widget;
